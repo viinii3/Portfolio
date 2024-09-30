@@ -1,0 +1,28 @@
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 40px;
+}
+
+.nav ul li{
+    list-style: none;
+}
+
+.nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.nav ul li:hover a{
+    border-bottom: 2px solid #fff;
+}

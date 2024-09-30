@@ -1,0 +1,46 @@
+.sobre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 250px;
+    padding-bottom: 350px;
+}
+
+.sobre h2{
+    font-weight: 400;
+    font-size: 20px;
+    padding-bottom: 8px;
+    color: #fff;
+}
+
+.sobre span{
+    font-size: 25px;
+    font-weight: 400;
+    color: #003C49;
+    padding-bottom: 8px;
+}
+
+.sobre p{
+    font-size: 16px;
+    font-weight: 200;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 12px;
+}
+
+.sobre a{
+    font-size: 23px;
+    font-weight: 300;
+    color: #003C49;
+    text-align: center;
+    text-decoration: none;
+    background-color: #32AFCA;
+    padding: 12px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 8px 0px rgba(0,0,0,0.25);
+}
+
+.sobre a:hover{
+    box-shadow: inset 5px 5px 8px 0px rgba(0,0,0,0.25);
+}
