@@ -1,0 +1,85 @@
+.skills h1{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    color: #003C49;
+    padding-top: 80px;
+}
+
+.skills p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    padding-bottom: 60px;
+    color: #fff;
+}
+
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.mainContainer span{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+.mainSkills{
+    padding-bottom: 30px;
+}
+
+.mainSkills ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+    background-color: rgba(0, 60, 73, 0.158);
+    padding: 20px;
+    list-style: none;
+    border-radius: 20px;
+    box-shadow: 5px 5px 8px 0px rgba(0,0,0,0.25);
+}
+
+.mainSkills ul li img:hover{
+    animation: rotate 2s linear infinite;
+    cursor: pointer;
+}
+
+.fullSkills{
+    padding-bottom: 30px;
+}
+
+.fullSkills ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 30px;
+    background-color: rgba(0, 60, 73, 0.158);
+    padding: 20px;
+    list-style: none;
+    border-radius: 20px;
+    box-shadow: 5px 5px 8px 0px rgba(0,0,0,0.25);
+}
+
+.fullSkills ul li img:hover{
+    animation: rotate 2s linear infinite;
+    cursor: pointer;
+}
+
+@keyframes rotate {
+    from {
+      transform: rotate(0deg); /* Inicia sem rotação */
+    }
+    to {
+      transform: rotate(360deg); /* Roda até 360 graus (uma volta completa) */
+    }
+}

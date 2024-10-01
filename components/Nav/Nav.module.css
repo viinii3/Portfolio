@@ -1,28 +1,33 @@
-.nav{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px 0px;
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #367e9452;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    z-index: 1000; 
+    padding: 20px 0;
 }
 
-.nav ul{
+.navList {
     display: flex;
     justify-content: center;
-    align-items: center;
-    column-gap: 40px;
-}
-
-.nav ul li{
+    margin: 0;
+    padding: 0;
     list-style: none;
 }
 
-.nav ul li a{
-    color: #fff;
+.navItem {
+    margin: 0 15px;
+}
+
+.navItem a {
     text-decoration: none;
-    font-size: 16px;
+    color: #FFF;
     font-weight: 300;
 }
 
-.nav ul li:hover a{
+.navItem a:hover {
     border-bottom: 2px solid #fff;
 }
