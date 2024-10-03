@@ -23,7 +23,7 @@ export default function Sobre(){
                 constantemente atualizado sobre as<br/>  
                 inovações e tendências da área.
             </p>
-            <a href="https://wa.me/5511912125307" target="_blank"  data-aos="fade-right" data-aos-offset="0" data-aos-once="false">
+            <a href="https://wa.me/5511912125307" target="_blank" data-aos="fade-right">
                 <FiSend /> Say Hello
             </a>
         </div>
