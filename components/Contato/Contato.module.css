@@ -1,0 +1,45 @@
+.contato{
+    padding-bottom: 40px;
+}
+
+.contato h1{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    padding-bottom: 10px;
+    color: #003C49;
+    padding-top: 80px;
+}
+
+.contato p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 200;
+    padding-bottom: 40px;
+    color: #fff;
+    padding-top: 10px;
+    margin: 0px 550px;
+}
+
+.redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+    line-height: 0;
+}
+
+.redes a:hover{
+    animation: rotate 2s linear infinite;
+    cursor: pointer;
+}
+
+@keyframes rotate {
+    from {
+      transform: rotate(0deg); /* Inicia sem rotação */
+    }
+    to {
+      transform: rotate(360deg); /* Roda até 360 graus (uma volta completa) */
+    }
+}

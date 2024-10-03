@@ -6,21 +6,21 @@ export default function Exp(){
         <div className={styles.container} id='sobre'>
             <h1>Quem é Marcos Vinicius</h1>
             <div className={styles.box}>
-                <div className={styles.expBox}>
+                <div className={styles.expBox} data-aos="fade-down">
                     <h2>Experiência</h2>
                     <p>
                         +2 anos de <br/>
                         experiencia
                     </p>
                 </div>
-                <div className={styles.expBox}>
+                <div className={styles.expBox} data-aos="fade-down" data-aos-delay="200">
                 <h2>Completo</h2>
                     <p>
                         +30 projetos <br/>
                         completos
                     </p>
                 </div>
-                <div className={styles.expBox}>
+                <div className={styles.expBox} data-aos="fade-down" data-aos-delay="400">
                 <h2>Suporte</h2>
                     <p>
                         08h - 18h

@@ -32,15 +32,18 @@
 .sobre a{
     font-size: 23px;
     font-weight: 300;
-    color: #003C49;
+    color: #32AFCA;
     text-align: center;
     text-decoration: none;
-    background-color: #32AFCA;
-    padding: 12px;
+    background-color: #000;
+    padding: 20px;
     border-radius: 20px;
     box-shadow: 5px 5px 8px 0px rgba(0,0,0,0.25);
+    line-height: 0;
 }
 
 .sobre a:hover{
-    box-shadow: inset 5px 5px 8px 0px rgba(0,0,0,0.25);
+    background-color: #32AFCA;    
+    color: #000;
+    transition: all 0.5s;
 }
