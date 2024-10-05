@@ -8,6 +8,6 @@
 @media (max-width: 768px) {
     .backgroundContent {
         background: radial-gradient(ellipse at 50% 50%, #4D9AB2 20%, #000000 90%);
-        background-attachment: fixed; /* Remover fixo em dispositivos móveis */
+        background-attachment: fixed;
     }
 }
