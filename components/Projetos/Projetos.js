@@ -23,7 +23,7 @@ export default function Projetos(){
                         src={image1}
                         alt='projeto1'
                         height={280}
-                        width={370}
+                        width={320}
                     />
                     <div className={styles.overlay}></div>
                 </a>
@@ -33,7 +33,7 @@ export default function Projetos(){
                         src={image2}
                         alt='projeto2'
                         height={280}
-                        width={370}
+                        width={320}
                     />
                     <div className={styles.overlay}></div>
                 </a>
@@ -43,7 +43,7 @@ export default function Projetos(){
                         src={image3}
                         alt='projeto3'
                         height={280}
-                        width={370}
+                        width={320}
                     />
                     <div className={styles.overlay}></div>
                 </a>
@@ -53,7 +53,7 @@ export default function Projetos(){
                         src={image4}
                         alt='projeto4'
                         height={280}
-                        width={370}
+                        width={320}
                     />
                     <div className={styles.overlay}></div>
                 </a>
@@ -63,7 +63,7 @@ export default function Projetos(){
                         src={image5}
                         alt='projeto5'
                         height={280}
-                        width={370}
+                        width={320}
                     />
                     <div className={styles.overlay}></div>
                 </a>
@@ -73,7 +73,7 @@ export default function Projetos(){
                         src={image6}
                         alt='projeto6'
                         height={280}
-                        width={370}
+                        width={320}
                     />
                     <div className={styles.overlay}></div>
                 </a>
@@ -83,7 +83,7 @@ export default function Projetos(){
                         src={image7}
                         alt='projeto7'
                         height={280}
-                        width={370}
+                        width={320}
                     />
                     <div className={styles.overlay}></div>
                 </a>
@@ -93,7 +93,7 @@ export default function Projetos(){
                         src={image8}
                         alt='projeto8'
                         height={280}
-                        width={370}
+                        width={320}
                     />
                     <div className={styles.overlay}></div>
                 </a>
@@ -103,7 +103,7 @@ export default function Projetos(){
                         src={image9}
                         alt='projeto9'
                         height={280}
-                        width={370}
+                        width={320}
                     />
                     <div className={styles.overlay}></div>
                 </a>
@@ -113,7 +113,7 @@ export default function Projetos(){
                         src={image10}
                         alt='projeto10'
                         height={280}
-                        width={370}
+                        width={320}
                     />
                     <div className={styles.overlay}></div>
                 </a>
