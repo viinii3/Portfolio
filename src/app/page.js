@@ -30,8 +30,8 @@ export default function Home() {
       <Sobre/>
       <Exp/>
       <Skills/>
-      <Projetos/>
       <Devzone/>
+      <Projetos/>
       <Contato/>
       <Footer/>
     </div>

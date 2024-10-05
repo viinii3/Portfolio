@@ -33,6 +33,7 @@
     font-size: 18px;
     font-weight: 200;
 }
+
 .text{
     color: #fff;
     font-weight: 200;
@@ -65,4 +66,41 @@
     color: #000;
     background-color: #32AFCA;
     transition: all 0.5s;
+}
+
+@media (max-width: 768px) {
+    .container h1{
+        padding-bottom: 40px;
+    }
+
+    .box{
+        column-gap: 20px;
+        padding-bottom: 50px;
+    }
+    
+    .expBox{
+        padding: 10px;
+        width: 100px;
+    }
+    
+    .expBox h2{
+        font-size: 14px;
+        padding-bottom: 20px;
+    }
+    .expBox p{
+        font-size: 12px;
+    }
+    
+    .text{
+        font-size: 12px;
+        margin: 0px 40px;
+    }
+
+    .curriculoBox{
+        column-gap: 20px;
+    }
+    
+    .CVBox a{
+        font-size: 12px;
+    }
 }

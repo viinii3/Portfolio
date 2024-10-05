@@ -31,3 +31,9 @@
 .navItem a:hover {
     border-bottom: 2px solid #fff;
 }
+
+@media (max-width: 768px) {
+    .nav{
+        display: none;
+    }
+}

@@ -43,3 +43,10 @@
       transform: rotate(360deg); /* Roda até 360 graus (uma volta completa) */
     }
 }
+
+@media (max-width: 768px) {
+    .contato p{
+        font-size: 14px;
+        margin: 0px 40px;
+    }
+}
