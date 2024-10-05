@@ -23,6 +23,6 @@
 /* Estilos para telas menores (dispositivos móveis) */
 @media (max-width: 768px) {
     .backgroundContent::before {
-        background: linear-gradient(to bottom, #4D9AB2 20%, #000000 92.5%);
+        background: linear-gradient(to bottom, #4D9AB2 20%, #000000 95%);
     }
 }
